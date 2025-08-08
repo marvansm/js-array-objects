@@ -145,14 +145,18 @@
 
 //! 12. task
 
-let nums = [0, 1, 0, 3, 12];
+//! 13. task
 
-function moveZeroes(arr) {
-  for (let i = 0; i < arr.length; i++) {
-    if (arr[i] === 0) {
-      arr.push(arr[i]);
-    }
-  }
-}
+// let nums = [4, 1, 2, 1, 2];
 
-moveZeroes(nums);
+// function singleNumber(arr) {
+//   arr.sort((a, b) => a - b);
+
+//   for (let i = 0; i < arr.length; i += 2) {
+//     if (arr[i] !== arr[i + 1]) {
+//       return arr[i];
+//     }
+//   }
+// }
+
+// console.log(singleNumber(nums));
