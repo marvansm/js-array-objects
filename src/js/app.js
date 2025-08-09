@@ -69,17 +69,14 @@
 // let numberValues = { a: 10, b: "hello", c: 20, d: 30 };
 
 // function sumNumberValues(obj) {
-//   let numbers = Object.values(obj);
-//   if (numbers === "number") {
-//     numbers.reduce(
-//       (accumulator, currentValue) => accumulator + currentValue,
-//       0
-//     );
-//   }
+//   let numbers = Object.values(obj).filter((value) => typeof value === "number");
 
+//   let sum = numbers.reduce((acc, curr) => acc + curr, 0);
+
+//   return sum;
 // }
 
-// sumNumberValues(numberValues);
+// console.log(sumNumberValues(numberValues));
 
 //! 7.task
 
