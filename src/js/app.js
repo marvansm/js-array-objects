@@ -11,14 +11,14 @@
 
 //! 2.task
 
-// function factorial(num) {
+// function factorialNumbers(num) {
 //   let count = 1;
 //   for (let i = 1; i <= num; i++) {
 //     count = count *= i;
 //   }
 //   return count;
 // }
-// console.log(factorial(5));
+// console.log(factorialNumbers(5));
 
 //! 3.task
 
