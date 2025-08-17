@@ -7,7 +7,7 @@
 //   }
 //   return 0;
 // }
-// console.log(countWords("salam pf-502 qrupu"));
+// console.log(countWords("salam necesen"));
 
 //! 2.task
 
